@@ -1,6 +1,9 @@
+// env
 .env
 
+// NPM
 node_modules/*
 
+// Logs
 logs/*
 !logs/.gitkeep
