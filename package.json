@@ -1,5 +1,5 @@
 {
-  "name": "ts_tg_bot",
+  "name": "exemplary_telegram_bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Trard/ts_tg_bot.git"
+    "url": "git+https://github.com/Trard/exemplary_telegram_bot.git"
   },
   "keywords": [
     "ts",
@@ -21,9 +21,9 @@
   "author": "Trard",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Trard/ts_tg_bot/issues"
+    "url": "https://github.com/Trard/exemplary_telegram_bot/issues"
   },
-  "homepage": "https://github.com/Trard/ts_tg_bot#readme",
+  "homepage": "https://github.com/Trard/exemplary_telegram_bot#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
     "telegraf": "^4.4.0",
