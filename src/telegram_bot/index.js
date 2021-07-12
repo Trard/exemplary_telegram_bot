@@ -7,11 +7,11 @@ const logger = winston.createLogger({
     format: winston.format.json(),
     transports: [
         new winston.transports.File({
-            filename: 'logs/bot/error.log',
+            filename: 'logs/telegram_bot/error.log',
             level: 'error'
       }),
         new winston.transports.File({
-            filename: 'logs/bot/combined.log'
+            filename: 'logs/telegram_bot/combined.log'
     }),
   ],
 });
