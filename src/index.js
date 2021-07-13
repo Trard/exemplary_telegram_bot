@@ -1,9 +1,9 @@
 const bot = require('./telegram_bot');
 const localtunnel = require('localtunnel');
 
-const start_telegram_bot = async () => {
-    const tunnel = await localtunnel({ port: 3000 });
-
+const start_all = async () => {
+    const tunnel = localtunnel({ port: 3000 });
+    
     bot.launch({
         webhook: {
             domain: tunnel.url,
@@ -12,4 +12,4 @@ const start_telegram_bot = async () => {
     });
 };
 
-start_telegram_bot()
+start_all()
