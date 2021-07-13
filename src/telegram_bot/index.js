@@ -24,7 +24,7 @@ bot.use((ctx, next) => {
     next();
 });
 
-bot.command('hi', (ctx) => {
+bot.hears('hi', (ctx) => {
     ctx.reply(`Hello!`);
 });
 
