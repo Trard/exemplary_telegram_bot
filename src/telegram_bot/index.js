@@ -19,9 +19,9 @@ const logger = winston.createLogger({
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
 //logger middleware
-bot.use((ctx, next) => {
+bot.use(async (ctx, next) => {
     logger.info(ctx.update);
-    next();
+    await next();
 });
 
 bot.hears('hi', (ctx) => {
