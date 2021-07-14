@@ -1,5 +1,8 @@
 const { Telegraf } = require('telegraf');
 const winston = require('winston');
+
+const { getRandomIntInclusive } = require('./randomer')
+
 require('dotenv').config();
 
 const logger = winston.createLogger({
@@ -20,12 +23,14 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 
 //logger middleware
 bot.use(async (ctx, next) => {
-    logger.info(ctx.update);
     await next();
+    ctx.update.message.response_time = new Date().getTime();
+    delete ctx.tg
+    logger.info(ctx);
 });
 
-bot.hears('hi', (ctx) => {
-    ctx.reply(`Hello!`);
+bot.command("getRandomNumber", async (ctx) => {
+    ctx.reply(getRandomIntInclusive(1,10))
 });
 
 module.exports = bot;
