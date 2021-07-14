@@ -1,6 +1,6 @@
 {
   "name": "exemplary_telegram_bot",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Good example of a telegram bot",
   "main": "index.js",
   "scripts": {
