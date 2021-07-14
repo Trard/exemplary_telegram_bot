@@ -1,4 +1,4 @@
-const { getRandomIntInclusive } = require('../src/randomer');
+const { getRandomIntInclusive } = require('../../src/telegram_bot/randomer');
 
 expect.extend({
     toBeWithinRange(received, floor, ceiling) {
