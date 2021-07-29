@@ -2,8 +2,8 @@
 
 Good example of a telegram bot.
 
-[![CI](https://github.com/Trard/exemplary_telegram_bot/actions/workflows/CI.yml/badge.svg)](https://github.com/Trard/exemplary_telegram_bot/actions/workflows/CI.yml)
-[![CD](https://github.com/Trard/exemplary_telegram_bot/actions/workflows/CD.yml/badge.svg)](https://github.com/Trard/exemplary_telegram_bot/actions/workflows/CD.yml)
+[![CI](../../actions/workflows/CI.yml/badge.svg)](../../actions/workflows/CI.yml)
+[![CD](../../actions/workflows/CD.yml/badge.svg)](../../actions/workflows/CD.yml)
 
 ## Contents
 1. [Installation](#installation)
