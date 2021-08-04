@@ -10,7 +10,7 @@ Good example of a telegram bot.
     - [Docker](#docker)
     - [Github](#github)
         1. [Clone](#clone)
-        2. [Dependencies](#dependencies)
+        2. [Dependencies](#install-dependencies)
 2. [Run](#run)
     - [NPM](#npm-1)
     - [Docker](#docker-1)
